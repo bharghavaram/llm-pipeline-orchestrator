@@ -1,3 +1,5 @@
+> **📅 Project Period:** Nov 2025 – Dec 2025 &nbsp;|&nbsp; **Status:** Completed &nbsp;|&nbsp; **Author:** [Bharghava Ram Vemuri](https://github.com/bharghavaram)
+
 # LLM Data Pipeline Orchestrator
 
 > Natural language → working data pipelines with automatic error recovery
