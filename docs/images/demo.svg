@@ -1,0 +1,41 @@
+<svg width="820" height="364" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 364">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+  <!-- Window background -->
+  <rect width="820" height="364" rx="12" fill="url(#grad)" stroke="#313244" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect width="820" height="40" rx="12" fill="#181825"/>
+  <rect y="30" width="820" height="10" fill="#181825"/>
+  <!-- Traffic lights -->
+  <circle cx="22" cy="20" r="6" fill="#f38ba8"/>
+  <circle cx="42" cy="20" r="6" fill="#f9e2af"/>
+  <circle cx="62" cy="20" r="6" fill="#a6e3a1"/>
+  <!-- Title text -->
+  <text x="410" y="25" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#cdd6f4">LLM Pipeline Orchestrator — Live API Response</text>
+  <!-- Divider -->
+  <line x1="0" y1="40" x2="820" y2="40" stroke="#313244" stroke-width="1"/>
+  <!-- Endpoint line -->
+  <rect x="16" y="44" width="788" height="20" rx="4" fill="#1e1e2e" opacity="0.5"/>
+  <text x="24" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#89dceb">POST</text>
+  <text x="66" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#a6e3a1">http://localhost:8000/pipelines/run</text>
+  <text x="746" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" fill="#a6e3a1">200 OK ✓</text>
+  <!-- Response body -->
+  <text x="24" y="60" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">{</text>
+    <text x="24" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;pipeline&quot;</text><text x="117.6" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: { &quot;name&quot;: </text><text x="211.2" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;Revenue Analysis&quot;</text><text x="351.6" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;steps&quot;: [</text>
+    <text x="24" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">    { &quot;type&quot;: </text><text x="133.2" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;filter&quot;</text><text x="195.6" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;params&quot;: { &quot;condition&quot;: </text><text x="406.2" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;revenue &gt; 5000&quot;</text><text x="531" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086"> } },</text>
+    <text x="24" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">    { &quot;type&quot;: </text><text x="133.2" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;aggregate&quot;</text><text x="219" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;params&quot;: { &quot;group_by&quot;: </text><text x="421.79999999999995" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;category&quot;</text><text x="499.79999999999995" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086"> } }</text>
+    <text x="24" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">  ] },</text>
+    <text x="24" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;execution&quot;</text><text x="125.39999999999999" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: {</text>
+    <text x="24" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">    &quot;status&quot;</text><text x="117.6" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="133.2" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;completed&quot;</text><text x="219" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">    &quot;steps_run&quot;</text><text x="141" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="156.6" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">2</text><text x="164.4" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;errors&quot;: </text><text x="258" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">0</text><text x="265.8" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;duration_ms&quot;: </text><text x="398.4" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">234</text>
+    <text x="24" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">  },</text>
+    <text x="24" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;result&quot;</text><text x="102" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: [</text>
+    <text x="24" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">    { &quot;category&quot;: </text><text x="164.4" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;Electronics&quot;</text><text x="265.8" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;total_revenue&quot;: </text><text x="414" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">128450</text><text x="460.8" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086"> },</text>
+    <text x="24" y="280" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">    { &quot;category&quot;: </text><text x="164.4" y="280" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;Software&quot;</text><text x="242.4" y="280" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;total_revenue&quot;: </text><text x="390.6" y="280" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">87230</text><text x="429.6" y="280" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086"> }</text>
+    <text x="24" y="300" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">  ]</text>
+    <text x="24" y="320" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">}</text>
+</svg>
