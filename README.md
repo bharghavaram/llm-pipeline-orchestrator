@@ -15,7 +15,11 @@
 
 ---
 
-## 🎯 Problem Statement
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bharghavaram/llm-pipeline-orchestrator/main/docs/images/demo.svg" alt="llm-pipeline-orchestrator demo" width="820"/>
+</div>
+
+--- 🎯 Problem Statement
 
 Building ETL/data pipelines requires specialist engineers, weeks of development, and constant maintenance. Business users who understand the data cannot build pipelines themselves. This system lets anyone describe a data pipeline in plain English — GPT-4o generates executable pipeline code, runs it, detects errors, and auto-recovers by regenerating the failed step. Supports 13 step types including SQL, HTTP, transform, filter, join, aggregate, and export.
 
